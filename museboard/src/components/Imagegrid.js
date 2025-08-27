@@ -9,7 +9,8 @@ import imagesList from "../data/images";
 
 export default function ImageMasonry() {
   const [images, setImages] = React.useState(imagesList);
-  const backendBase = process.env.REACT_APP_BACKEND_URL || "http://localhost:4000";
+  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+
 
   React.useEffect(() => {
     async function loadCloudImages() {
