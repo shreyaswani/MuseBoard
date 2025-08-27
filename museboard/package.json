@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "parcel serve ./public/index.html",
-    "build": "parcel build ./public/index.html"
+    "build": "parcel build ./public/index.html --dist-dir build"
   },
   "eslintConfig": {
     "extends": [
