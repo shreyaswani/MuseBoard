@@ -1,0 +1,52 @@
+{
+  "name": "MuseBoard",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@cloudinary/react": "^1.13.1",
+    "@cloudinary/url-gen": "^1.21.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.1.1",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/lab": "^6.0.0-beta.27",
+    "@mui/material": "^6.4.4",
+    "@tailwindcss/postcss": "^4.0.6",
+    "axios": "^1.7.9",
+    "cra-template": "1.2.0",
+    "framer-motion": "^12.4.3",
+    "parcel": "^2.13.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^4.0.6"
+  },
+  "scripts": {
+    "start": "parcel serve ./public/index.html",
+    "build": "parcel build ./public/index.html"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}
