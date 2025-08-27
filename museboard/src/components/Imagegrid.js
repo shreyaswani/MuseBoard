@@ -9,7 +9,7 @@ import imagesList from "../data/images";
 
 export default function ImageMasonry() {
   const [images, setImages] = React.useState(imagesList);
-  const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+  const backendBase ="https://museboard.onrender.com";
 
 
   React.useEffect(() => {
